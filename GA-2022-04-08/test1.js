@@ -1,4 +1,5 @@
 // Hämtar alla element(audio taggen, div:en, switch knappen)
+/*jshint esversion: 6 */
 let cSound = document.querySelector("#cSound");
 let cSsound = document.querySelector("#cSsound");
 let dSound = document.querySelector("#dSound");
@@ -25,11 +26,11 @@ let aKey = document.querySelector("#aKey");
 let aSkey = document.querySelector("#aSkey");
 let bKey = document.querySelector("#bKey");
 
-let switchKeys = document.querySelector(".switchKeys")
-let keyboardKeys = document.querySelectorAll(".keyboardKeys")
-let keyboardkeysSharp = document.querySelectorAll(".keyboardkeysSharp")
+let switchKeys = document.querySelector(".switchKeys");
+let keyboardKeys = document.querySelectorAll(".keyboardKeys");
+let keyboardkeysSharp = document.querySelectorAll(".keyboardkeysSharp");
 
-let showOrHideKeys = true
+let showOrHideKeys = true;
 // Sätter variebeln som låter mig spela dem en gång(kommer senare)
 ckeydoOnce = false
 csharpkeydoOnce = false
